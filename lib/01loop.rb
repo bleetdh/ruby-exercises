@@ -9,3 +9,11 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+def p_times(message, number)
+  number.times do
+    p message
+  end
+end
+
+p_times("hello", 5)

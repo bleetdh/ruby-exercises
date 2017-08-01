@@ -9,3 +9,15 @@
 #
 # > 120
 #
+
+def factorial(num)
+  if num <= 0
+    p "error"
+  elsif num >= 1
+    return 1 if num == 1
+
+    num = num * factorial(num - 1)
+  end
+  p num
+end
+factorial(5)

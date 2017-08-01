@@ -9,3 +9,10 @@
 # > 5
 # > 10
 # > 15
+
+def multiply_by(number_array, number)
+  number_array.each do |num|
+    p num * number
+  end
+end
+multiply_by([3,5,9], 20)
